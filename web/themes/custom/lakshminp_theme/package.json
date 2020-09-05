@@ -1,0 +1,40 @@
+{
+  "name": "tailwind-starter",
+  "version": "1.0.0",
+  "description": "A starter kit to get going with tailwind, gulp and browser-sync.",
+  "main": "gulpfile.js",
+  "paths": {
+    "src": {
+      "css": "./scss/"
+    },
+    "dist": {
+      "base": "./dist/",
+      "css": "./css/"
+    },
+    "config": {
+      "tailwind": "./tailwind.js"
+    }
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "tailwindcss": "^1.1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tailwind",
+    "utility-first",
+    "CSS",
+    "boilerplate",
+    "gulp",
+    "browser-sync"
+  ],
+  "author": "simonswiss",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-purgecss": "^1.2.0"
+  }
+}

@@ -1,0 +1,17 @@
+name: Lakshminp Theme
+type: theme
+description: My Awesome theme
+package: Other
+core: 8.x
+libraries:
+  - lakshminp_theme/global-styling
+  - lakshminp_theme/fonts
+  - core/drupal.dialog.ajax
+ 
+base theme: false
+
+regions:
+  content: Content
+  header: Header
+  sidebar: Sidebar
+  footer: Footer
